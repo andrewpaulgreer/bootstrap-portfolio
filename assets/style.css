@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+/* background image for my page */
+
+#background {
+  background: url("https://ak6.picdn.net/shutterstock/videos/28510186/thumb/1.jpg")
+    no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-blend-mode: normal;
+  background-attachment: fixed;
+  bottom: auto;
+}
+
+/* sticky footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 1em;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+.inner {
+  background-color: lightseagreen;
+}

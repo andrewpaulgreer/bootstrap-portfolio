@@ -1,1 +1,2 @@
 # bootstrap-portfolio
+In this project, I got the opportunity to play around with bootsrap. You will find mobile responsiveness in this page throught the use of the bootstrap grid system. I added some personal pictures of things that I enjoy doing under my portfolio. 
