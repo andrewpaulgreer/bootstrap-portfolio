@@ -15,56 +15,35 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style.css" />
     <title>About</title>
   </head>
   <body>
+    <section id="background">
     <!-- here is the section for my nav -->
-    <section id="background" style>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a
-          class="navbar-brand"
-          href="index.html"
-          style="background-color: lightseagreen; color: whitesmoke; margin-left: 3%; padding-left: 0;"
-          >Andrew Greer</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >About <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <nav class="row no-gutters bg-white shadow-sm">
+      <div class="col-md-6 text-center text-white">
+        <a href="index.html" class="text-white">
+        <h1 class="float-md-left p-4 ml-md-3 mb-0" style="background-color: lightseagreen;">  
+       Andrew Greer
+       </h1>
+      </a>
+       </div>
+      <div class="col-md-6 d-flex flex-row justify-content-center align-items-center">
+          <a class="m-3 ml-md-auto text-muted" href="index.html">About</a> |
+          <a class="m-3 text-muted" href="portfolio.html">Portfolio</a> |
+          <a class="m-3 text-muted" href="contact.html">Contact</a>
+      </div>
+    </nav>
 
       <!-- here is the bootstrap form -->
-      <section
-        class="conatiner"
-        style="margin-left: 5%; margin-top: 3%; margin-right: 1.5rem;"
-      >
-        <section class="row">
+      <div class="row">
+      <section class="col-lg-9">
+        <section class="card m-3 mb-5">
           <main
             class="col-md-7 contact"
-            style="background-color: white; height: 475px;"
+            style="background-color: white;"
           >
             <h1 style="color: lightseagreen; text-shadow: black;">Contact</h1>
             <hr />
@@ -99,7 +78,7 @@
               </div>
               <button
                 type="submit"
-                class="btn btn-primary"
+                class="btn btn-primary pb-2 mb-3"
                 style="background-color: lightseagreen;"
               >
                 Submit
@@ -109,6 +88,7 @@
           <div class="col-md-5"></div>
         </section>
       </section>
+    </div>
       <!-- page bottom -->
       <section class="row" style="margin-bottom: 0%; margin-top: 40%;">
         <p class="col-md-12"></p>
@@ -116,11 +96,16 @@
 
       <!-- sticky footer -->
       <footer class="footer">
-        <div class="inner">
-          <p>Copyright</p>
-        </div>
-      </footer>
-
+        <p style="margin-bottom: 0;">Copyright</p>
+          <a href="https://github.com/andrewpaulgreer" target="_Blank">
+            <i class="fa fa-github" style="font-size:25px; color: #211F1F; margin-right: .5em"></i>
+          </a>
+  
+          <a href="https://www.linkedin.com/in/andrewpgreer" target="_Blank">
+            <i class="fa fa-linkedin" style="font-size:25px; color:#0e76a8"></i>
+         </a>
+    </footer>
+</section>
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script
